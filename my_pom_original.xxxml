@@ -20,8 +20,12 @@
  <plugin>
           <groupId>org.apache.maven.plugins</groupId>
          <artifactId>maven-war-plugin</artifactId>
+ <configuration>
+         <outputDirectory>/home/ubuntu</outputDirectory>
+  </configuration>
   </plugin>
   </plugins>
+  <finalName>WebProject</finalName>
   </build>
 
 </project>
