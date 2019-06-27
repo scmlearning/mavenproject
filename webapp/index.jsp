@@ -10,7 +10,7 @@
 <jsp:useBean id="u" class="com.untd.User"></jsp:useBean>  
 <jsp:setProperty property="*" name="u"/>  
   
-Welcome  
+Welcome!!!  
 
 <jsp:getProperty property="name" name="u"/><br>  
 </body>
